@@ -1,6 +1,6 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-HOSTNAME = "localhost"
+HOSTNAME = "0.0.0.0"
 PORT = 8080
 
 # Класс-обработчик входящих запросов
